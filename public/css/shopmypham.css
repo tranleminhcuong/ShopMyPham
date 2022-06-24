@@ -1,0 +1,190 @@
+:root {
+	--font-family-sans-serif: "Roboto", sans-serif;
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #212529;
+	text-align: left;
+	background-color: #f8fafc;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+}
+nav {
+	margin-bottom: 20px;
+}
+
+
+
+.popover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1060;
+	display: block;
+	max-width: 276px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: left;
+	text-align: start;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-break: normal;
+	word-spacing: normal;
+	white-space: normal;
+	line-break: auto;
+	font-size: 0.7875rem;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+}
+    /*--------footer--------*/
+    #footer {
+        background-image:url("../images/footer.png");
+        background-repeat: no-repeat;
+			  background-size: cover;
+    }
+    #footer h5{
+      padding-left: 10px;
+        border-left: 3px solid #eeeeee;
+        padding-bottom: 6px;
+        margin-bottom: 20px;
+        color:#ffffff;
+    }
+    #footer a {
+        color: #ffffff;
+        text-decoration: none !important;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+    #footer ul.quick-links li{
+      padding: 3px 0;
+      -webkit-transition: .5s all ease;
+      -moz-transition: .5s all ease;
+      transition: .5s all ease;
+    }
+    #footer ul.quick-links li:hover{
+      padding: 3px 0;
+      margin-left:5px;
+      font-weight:700;
+    }
+    #footer ul.quick-links li a i{
+      margin-right: 5px;
+    }
+    #footer ul.quick-links li:hover a i {
+        font-weight: 700;
+    }
+    @media (max-width:767px){
+      #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    /*--------end-footer--------*/
+    
+        /* stick menu (thanh nav) */
+        #stick { 
+          width: 100%;
+          margin-right: 0px;
+          left: 0px;
+          position: relative;
+          z-index: 9999;
+        }
+    
+      
+    
+        a.nolink:hover{
+          text-decoration: none;
+          color: black;
+        }
+    
+        .fake{
+          width: 100%;
+          height: 200px;
+          margin: aoto;
+          background-color: lightgray;
+        }
+    
+        .btn {
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+      
+      .btn-blue {
+        font-size: 11pt;
+        color: rgb(255 ,255 ,255);
+        letter-spacing: 0px;
+        line-height: 15px;
+        border-radius:3px;
+        background: rgb(13, 92, 182);;
+        transition: all 0.3s ease 0s;
+      }
+    
+      .btn-blue:hover {
+      color: #FFF;
+      background: rgba(58, 133, 191, 0.75);
+      }
+      section {
+        padding: 60px 0;
+    }
+#card .card:hover{
+        box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transform:scale(1.015);
+    }
+
+  .dropdown:hover .dropdown-menu { 
+    display: block; 
+    margin-top: 0;
+    }
+
+ #badge .badge {
+      display: inline-block;
+      min-width: 10px;
+      padding: 3px 7px;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      border-radius: 10px;
+  }
+  .button_scroll2top
+  {
+    display:none;
+    width:85px;
+    height: 70px;
+    padding-top:10px;
+    padding-left:10px;
+    position:fixed;
+    z-index:999;
+    right:-45px;
+    top:50%;
+    background:#fb3;
+    border-radius:999px;
+    cursor:pointer;
+    
+    color:rgb(248, 245, 245);
+    font-size:2.0em;
+  }
+  
+  .button_scroll2top:hover
+  {
+    background:rgb(248, 201, 113);
+    color:rgb(255, 255, 255);
+  }
